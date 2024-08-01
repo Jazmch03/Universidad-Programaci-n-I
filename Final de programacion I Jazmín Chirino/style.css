@@ -1,0 +1,751 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  line-height: 1.6;
+}
+
+.centro {
+  width: min(1200px, 100%);
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+header {
+  background: linear-gradient(to right, #8e88dd, #87dbda);
+  min-height: 80px;
+}
+
+header .centro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  height: 60px;
+}
+
+nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .links {
+  margin: 0px 16px 0px 0px;
+  font-size: 16px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+nav .registrarse img {
+  width: 100%;
+  max-width: 30px;
+  display: flex;
+}
+
+.links:hover {
+  background-color: #fff;
+  color: #8e88dd;
+  transition: 0.5s;
+  border: 2px solid #7a71fd;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+main .centro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.inicio {
+  width: 100%;
+  display: flex;
+  text-align: left;
+}
+
+.caja {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.titulos_n {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  display: inline-block;
+  background: var(--color1);
+  color: white;
+  font-weight: 900;
+  border-radius: 20px;
+  padding: 6px;
+}
+
+.caja p {
+  width: 500px;
+  text-align: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.pic_nosotros {
+  width: 600px;
+  height: 400px;
+  text-align: right;
+  border-radius: 40px;
+  border: #8e88dd solid 13px;
+  object-fit: cover;
+}
+
+.caja #botonnosotros {
+  padding: 10px;
+  background-color: #8e88dd;
+  color: #fff;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 30px;
+  display: inline-block;
+  align-self: end;
+}
+
+.caja #botonnosotros:hover {
+  background-color: #fff;
+  color: #8e88dd;
+  transition: 0.5s;
+  border: 2px solid #7a71fd;
+}
+
+.novedades {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.titulos h2 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 5px;
+  display: inline-block;
+}
+
+.titulos #novedadest {
+  background-color: #87dbda;
+}
+
+.titulos #nombret {
+  background-color: #87dd88;
+}
+
+.titulos #equipot {
+  background-color: #fe9c6e;
+}
+
+.titulos #comentanos {
+  background-color: #fa6681;
+}
+
+.titulos #logintitulo {
+  background-color: #8a9ad6;
+}
+
+.titulos #tclasesv {
+  background-color: #fe9c6e;
+}
+
+.titulos #acroblogt {
+  background-color: #87dbda;
+}
+
+.caja-n {
+  width: 32%;
+  padding: 20px;
+}
+
+.caja-n .blog_b {
+  width: 80px;
+  padding: 10px;
+  background-color: #87d8dd;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.caja-n .blog_b:hover {
+  background-color: #fff;
+  color: #87d8dd;
+  transition: 0.5s;
+  border: 2px solid #87d8dd;
+}
+
+.novedades .caja-n {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.novedades .blog_b {
+  align-self: flex-end;
+  margin-top: 30px;
+}
+
+.novedades .caja-n h3 {
+  margin: 15px;
+}
+
+.novedades .caja-n p {
+  text-align: start;
+  margin-left: 15px;
+  text-justify: right;
+  text-wrap: balance;
+}
+
+.novedades .caja-n img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 30px;
+  border: #87dbda solid 10px;
+}
+
+.caja #imgnovedades {
+  margin-top: 20%;
+  height: 400px;
+  text-align: right;
+  border-radius: 10px;
+  border: #8e88dd solid 7px;
+}
+
+#talleres {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+#talleres #disciplinas {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#talleres a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: #f7fafa;
+  border-radius: 30px;
+  padding: 40px;
+  margin: 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#talleres img {
+  width: 150px;
+}
+
+#talleres a:hover {
+  background-color: #e7e8e8;
+  border-radius: 30px;
+  padding: 40px;
+}
+
+#publicidad {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+#publicidad img {
+  width: 100%;
+  border-radius: 35px;
+  border: #dbdd87 solid 10px;
+}
+
+#equipo {
+  display: flex;
+  justify-content: center;
+}
+
+#equipo .persona {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#equipo .descripcion {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: start;
+  margin-top: 40px;
+  margin-right: 40px;
+}
+
+#equipo img {
+  width: 280px;
+}
+
+#equipo .flecha {
+  width: 100px;
+  margin-top: 80px;
+  margin-right: 30px;
+}
+
+/* Formulario de Preguntas*/
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.formulario .pregunta img {
+  width: 25px;
+}
+
+.formulario .pregunta {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 900px;
+  margin: 30px;
+}
+
+.formulario .pregunta label {
+  font-weight: 600;
+}
+
+.formulario .pregunta input {
+  width: 100%;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 17px;
+  border: none;
+}
+
+.formulario .pregunta textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 17px;
+  border: none;
+}
+
+.formulario .boton {
+  width: 80px;
+  padding: 10px;
+  background-color: #fa6681;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.formulario .boton:hover {
+  background-color: #fff;
+  color: #fa6681;
+  transition: 0.5s;
+  border: 2px solid #fa6681;
+}
+
+/*footer*/
+
+footer {
+  background: linear-gradient(to right, #8e88dd, #87dbda);
+  text-align: center;
+  color: white;
+}
+
+footer .redes img {
+  width: 35px;
+  margin: 10px;
+}
+
+/* Formulario de Registro*/
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.register-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.register-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+  background-color: #8e88dd;
+  border-radius: 20px;
+  border: none;
+}
+
+.register-form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: 600;
+}
+
+.register-form input,
+.register-form select {
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(79, 79, 79, 0.297);
+  border-radius: 17px;
+  border: none;
+}
+
+.register-form input[type="checkbox"] {
+  width: auto;
+  margin-right: 1px;
+}
+
+.register-form button {
+  align-items: center;
+  width: 80%;
+  padding: 10px;
+  background-color: #8a9ad6;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 35px;
+  font-weight: 800;
+}
+
+.register-form button:hover {
+  background-color: #6f79da;
+}
+
+/*pagina talleres */
+
+#titulotalleres {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  padding-top: 2em;
+  margin-bottom: 20px;
+}
+
+#titulotalleres h1 {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  height: 60px;
+  background-color: #8e87dd;
+  font-weight: bold;
+  color: #ffff;
+  border-radius: 20px;
+  font-size: 30px;
+}
+
+#clases {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+#clases .actividad {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background: #f7fafa;
+  border-radius: 30px;
+  padding: 10px 30px;
+  margin: 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  width: 100%;
+}
+
+#clases .actividad .botones {
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+#clases .actividad .botones a {
+  width: 80px;
+  padding: 10px;
+  background-color: #8e88dd;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+#clases .actividad .botones a:hover {
+  background-color: #8a9ad6;
+  border-radius: 20px;
+  padding: 15px;
+  transition: 0.1s;
+}
+
+#clases .actividad .texto {
+  flex: 1;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+#clases .actividad .texto h2 {
+  display: inline-block;
+  padding: 10px;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  margin-left: -20px;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+#clases .actividad #acrotela {
+  background-color: #a7a1f4;
+}
+
+#clases .actividad #pilates {
+  background-color: #87d8dd;
+}
+
+#clases .actividad #fitnessdance {
+  background-color: #87dd88;
+}
+
+#clases .actividad #yoga {
+  background-color: #dbdd87;
+}
+
+#clases .actividad #activamente {
+  background-color: #fe9c6e;
+}
+
+#clases .actividad #equipointer {
+  background-color: #a0c4f1;
+}
+
+#clases .actividad #acompañamiento {
+  background-color: #fa6681;
+}
+
+/*Acrotela*/
+#acrotela .inicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  padding-top: 2em;
+}
+
+.inicio .quees {
+  display: flex;
+  flex-direction: row;
+}
+
+.inicio .tituloinicial {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 150px;
+  height: 50px;
+  background: #8e88dd;
+  color: white;
+  font-weight: 900;
+  border-radius: 20px;
+  padding: 6px;
+}
+
+.inicio .quees p {
+  width: 50%;
+  text-align: start;
+  margin-right: 30px;
+}
+
+.inicio .quees img {
+  width: 500px;
+  margin-top: -100px;
+}
+
+#beneficios {
+  display: flex;
+  flex-direction: row;
+}
+
+#beneficios #text {
+  display: flex;
+  flex-direction: column;
+}
+
+#beneficios ul {
+  text-align: start;
+}
+
+#beneficios p {
+  text-align: start;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#beneficios #text #inscribirme {
+  text-align: end;
+  margin-top: 15px;
+  width: 120px;
+  padding: 10px;
+  background-color: #8e88dd;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  align-self: flex-end;
+  margin-right: 30px;
+}
+
+#beneficios #text #inscribirme:hover {
+  background-color: #fff;
+  color: #8e88dd;
+  transition: 0.5s;
+  border: 2px solid #7a71fd;
+}
+
+#beneficios img {
+  margin-right: 45px;
+}
+
+.clasesvirtuales {
+  display: flex;
+  flex-direction: row;
+}
+
+.clasesvirtuales .niveldeclase {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background: #f7fafa;
+  border-radius: 30px;
+  padding: 15px;
+  margin: 15px;
+  color: black;
+}
+
+.clasesvirtuales .niveldeclase .pack {
+  margin-left: 15px;
+  font-size: 13px;
+  text-align: start;
+}
+
+.clasesvirtuales .niveldeclase a {
+  text-align: end;
+  margin-top: 15px;
+  width: 110px;
+  padding: 6px;
+  background-color: #fe9c6e;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  align-self: flex-end;
+}
+
+.clasesvirtuales .niveldeclase img {
+  width: 120px;
+  height: 120px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.clasesvirtuales .niveldeclase a:hover {
+  background-color: #fff;
+  color: #fe9c6e;
+  transition: 0.5s;
+  border: 2px solid #fe9c6e;
+}
+
+/*Horarios*/
+.horario{
+  margin-top: 30px;
+}
+.horario table {  
+  width: 950px;
+  border-collapse: collapse;
+  margin: auto;
+  background-color: white; 
+}  
+
+.horario th {  
+  background-color: #a7a1f4;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 10px; 
+}  
+
+.horario td {  
+  border: 1px solid #e7e8e8;  
+  padding: 10px; 
+  text-align: center;
+  font-size: 22px;  
+  font-weight: 600;
+}  
+
+.horario th, .horario td {  
+  border: 5px solid #e7e8e8;
+}
